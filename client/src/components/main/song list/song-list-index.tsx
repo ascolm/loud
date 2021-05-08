@@ -21,8 +21,9 @@ const SongList: React.FC<Props> = (props: Props) => {
 
   return (
     <div className={styles['song-list-container']}>
+      <h1>Song List</h1>
       {songList.length === 0 ? <p>Loading...</p> :
-        songList.map(songItem => <SongListItem song={songItem}/>)}
+        songList.map(songItem => <SongListItem key={songItem.id} song={songItem}/>)}
     </div>
   );
 };

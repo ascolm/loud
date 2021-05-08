@@ -17,6 +17,7 @@ const SongListItem: React.FC<Props> = ({ song }) => {
         <button>like</button>
         <button>play</button>
       </div>
+      <div className={styles['half-border']}></div>
     </div>
   );
 };

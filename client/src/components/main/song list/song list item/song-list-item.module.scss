@@ -1,9 +1,8 @@
 .song-list-item-container{
-  border: 1px solid red;
-  height: 4rem;
+  position: relative;
   display: flex;
   align-items: center;
-  margin: 0.2rem 0.25rem;
+  margin: 1rem 0.25rem;
   padding: 0.25rem;
   &:hover{
     transform: scale(1.01)
@@ -28,8 +27,6 @@
   }
 }
 
-
-
 .buttons{
   display: flex;
   margin-left: auto;
@@ -37,4 +34,13 @@
   button{
     margin: 0 0.2rem;
   }
+}
+
+.half-border{
+  background-color: #8080804d;
+  height: 0.25px;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 6rem;
+  width: calc(100% - 6rem);
 }
