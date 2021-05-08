@@ -1,6 +1,7 @@
 import styles from './song-list-item.module.scss';
 import { Song } from 'interfaces/interfaces';
 import React, { useState } from 'react';
+import { postLike } from 'apiService';
 
 export interface Props {
   song: Song;
@@ -11,6 +12,11 @@ export interface Props {
 const SongListItem: React.FC<Props> = ({ song, togglePlay, isPlaying }) => {
   let [liked, setLiked] = useState<boolean>(false);
 
+  async function likeHandler () {
+    if (!liked) postLike(song.id);
+    setLiked(liked => !liked);
+  }
+
   return (
     <div className={styles['song-list-item-container']}>
       <img src={song.cover_image_path} alt='Song cover image' className={styles['song-img']} />
@@ -19,7 +25,7 @@ const SongListItem: React.FC<Props> = ({ song, togglePlay, isPlaying }) => {
         <p className={styles['artist-name']}>{song.artist.name}</p>
       </div>
       <div className={styles['buttons']}>
-        <button onClick={() => setLiked(liked => !liked)}>
+        <button onClick={likeHandler}>
           {liked ? <i className={'fas fa-lg fa-heart ' + styles['liked']}></i> : <i className='far fa-lg fa-heart'></i>}
         </button>
         <button onClick={() => togglePlay(song.id, song.music_file_path)}>
