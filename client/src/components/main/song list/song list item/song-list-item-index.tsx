@@ -1,6 +1,6 @@
 import styles from './song-list-item.module.scss';
 import { Song } from 'interfaces/interfaces';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export interface Props {
   song: Song;
@@ -31,4 +31,4 @@ const SongListItem: React.FC<Props> = ({ song, togglePlay, isPlaying }) => {
   );
 };
 
-export default SongListItem;
+export default React.memo(SongListItem);
