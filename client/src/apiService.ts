@@ -11,11 +11,16 @@ const apiHelper = async (fetcher: () => Promise<Response>, errorMsg: string = 'A
 };
 
 export const getSongs = async () => {
-  const response = await fetch(config.apiBaseUrl + config.apiSongUrl);
-  if (response.ok) {
-    const songList = await response.json();
-    return songList;
-  } else {
-    throw new Error('Song fetch failed');
-  }
+  return await (apiHelper(() => fetch(config.apiBaseUrl + config.apiSongUrl), 'Api get request to fetch songs failed.'));
+};
+
+export const postLike = async (songId: string) => {
+  return await (apiHelper(() =>
+    fetch(config.apiLikeQueryUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      body: 'id=' + songId
+    }), 'Api post request to like a song failed.'));
 };
