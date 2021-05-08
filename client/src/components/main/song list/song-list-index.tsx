@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Song } from 'interfaces/interfaces';
 import { getSongs } from 'apiService';
+import { CircleSpinner } from 'react-spinners-kit';
 import styles from './song-list.module.scss';
 import SongListItem from './song list item/song-list-item-index';
 
@@ -24,7 +25,7 @@ const SongList: React.FC<Props> = ({ togglePlay, songPlaying }) => {
   return (
     <div className={styles['song-list-container']}>
       <h1>Song List</h1>
-      {songList.length === 0 ? <p>Loading...</p> :
+      {songList.length === 0 ? <div className={styles['loading']}><CircleSpinner color='#17adb3'/></div> :
         songList.map(songItem =>
           <SongListItem
             key={songItem.id}
