@@ -1,0 +1,106 @@
+.logo-header-container{
+  height: 15%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+}
+
+.loudly-container{
+  display: flex;
+  align-items: center;
+  transform: scale(0.3);
+}
+
+.pickup{
+  display: flex;
+}
+
+.L{
+  margin-right: 80px;
+  z-index: 2;
+}
+
+.udly{
+  font-size: 12rem;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.L-vertical{
+  position: relative;
+  background-color: #17adb3;
+  height: 130px;
+  width: 40px;
+  transition: transform 1s;
+}
+
+.L-playing{
+  transform: rotate(-30deg);
+}
+
+.L-horizontal{
+  position: absolute;
+  bottom: -40px;
+  height: 40px;
+  width: 120px;
+  background-color: #17adb3;
+}
+
+.O{
+  position: relative;
+  transition: transform 2s;
+  animation-name: discRotate;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+  animation-play-state: paused;
+}
+
+.O-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line{
+  height: 100%;
+  width: 2px;
+  background-color: #d9d9d9;
+}
+
+.O-playing{
+  animation-play-state: running;
+}
+
+@keyframes discRotate{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+
+.O-outer{
+  position: relative;
+  background-color: black;
+  border-radius: 50%;
+  height: 170px;
+  z-index: 0;
+  width: 170px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.O-inner{
+  background-color: white;
+  z-index: 1;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+}
