@@ -37,6 +37,8 @@
     border: none;
     margin: 0 0.2rem;
     cursor: pointer;
+  }
+  .like-button{
     &:hover{
       animation-name: heartbeat;
       animation-duration: 1s;

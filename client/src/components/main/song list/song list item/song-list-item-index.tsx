@@ -8,6 +8,7 @@ export interface Props {
 
 const SongListItem: React.FC<Props> = ({ song }) => {
   let [liked, setLiked] = useState<boolean>(false);
+  let [isPlaying, setIsPlaying] = useState<boolean>(false);
 
   return (
     <div className={styles['song-list-item-container']}>
@@ -17,10 +18,12 @@ const SongListItem: React.FC<Props> = ({ song }) => {
         <p className={styles['artist-name']}>{song.artist.name}</p>
       </div>
       <div className={styles['buttons']}>
-        <button onClick={() => setLiked(liked => !liked)}>
+        <button onClick={() => setLiked(liked => !liked)} className={styles['like-button']}>
           {liked ? <i className={'fas fa-lg fa-heart ' + styles['liked']}></i> : <i className='far fa-lg fa-heart'></i>}
         </button>
-        <button>play</button>
+        <button onClick={() => setIsPlaying(playing => !playing)}>
+          {isPlaying ? <i className="fas fa-lg fa-pause"></i> : <i className="fas   fa-lg fa-play"></i>}
+        </button>
       </div>
       <div className={styles['half-border']}></div>
     </div>
