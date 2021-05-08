@@ -4,9 +4,16 @@
   align-items: center;
   margin: 1rem 0.25rem;
   padding: 0.25rem;
+  opacity: 0;
   &:hover{
     transform: scale(1.005)
   }
+  animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn{
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .song-img{
