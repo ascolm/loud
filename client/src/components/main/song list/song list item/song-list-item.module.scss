@@ -5,20 +5,21 @@
   margin: 1rem 0.25rem;
   padding: 0.25rem;
   &:hover{
-    transform: scale(1.01)
+    transform: scale(1.008)
   }
 }
 
 .song-img{
   height: 4rem;
   width: 4rem;
-  padding-left: 0.5rem;
   margin-right: 1rem;
+  border-radius: 50%;
 }
 
 .song-details{
   margin-bottom: 0.5rem;
   p{
+    text-transform: capitalize;
     margin: 0;
   }
   .song-name{
@@ -32,15 +33,32 @@
   margin-left: auto;
   margin-right: 1rem;
   button{
+    background-color: transparent;
+    border: none;
     margin: 0 0.2rem;
+    cursor: pointer;
+    &:hover{
+      animation-name: heartbeat;
+      animation-duration: 1s;
+    }
   }
+}
+
+@keyframes heartbeat{
+  0% {transform: scale(1)}
+  10% {transform: scale(1.3)}
+  100% {transform: scale(1)}
 }
 
 .half-border{
   background-color: #8080804d;
-  height: 0.25px;
+  height: 0.5px;
   position: absolute;
   bottom: -0.5rem;
-  left: 6rem;
+  left: 5rem;
   width: calc(100% - 6rem);
+}
+
+.liked{
+  color: #f57b90;
 }
