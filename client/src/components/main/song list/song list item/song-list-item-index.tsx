@@ -4,17 +4,12 @@ import { useState } from 'react';
 
 export interface Props {
   song: Song;
-  togglePlay: () => void;
+  togglePlay: (songId: string) => void;
+  isPlaying: boolean;
 }
 
-const SongListItem: React.FC<Props> = ({ song, togglePlay }) => {
+const SongListItem: React.FC<Props> = ({ song, togglePlay, isPlaying }) => {
   let [liked, setLiked] = useState<boolean>(false);
-  let [isPlaying, setIsPlaying] = useState<boolean>(false);
-
-  function playHandler () {
-    setIsPlaying(playing => !playing);
-    togglePlay();
-  }
 
   return (
     <div className={styles['song-list-item-container']}>
@@ -27,7 +22,7 @@ const SongListItem: React.FC<Props> = ({ song, togglePlay }) => {
         <button onClick={() => setLiked(liked => !liked)}>
           {liked ? <i className={'fas fa-lg fa-heart ' + styles['liked']}></i> : <i className='far fa-lg fa-heart'></i>}
         </button>
-        <button onClick={playHandler}>
+        <button onClick={() => togglePlay(song.id)}>
           {isPlaying ? <i className="fas fa-lg fa-pause"></i> : <i className="fas   fa-lg fa-play"></i>}
         </button>
       </div>

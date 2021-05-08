@@ -5,10 +5,11 @@ import styles from './song-list.module.scss';
 import SongListItem from './song list item/song-list-item-index';
 
 export interface Props {
-  togglePlay: () => void;
+  togglePlay: (songId: string) => void;
+  songPlaying: string;
 }
 
-const SongList: React.FC<Props> = ({ togglePlay }) => {
+const SongList: React.FC<Props> = ({ togglePlay, songPlaying }) => {
   let [songList, setSongList] = useState<Song[]>([]);
 
   useEffect(() => {
@@ -24,7 +25,13 @@ const SongList: React.FC<Props> = ({ togglePlay }) => {
     <div className={styles['song-list-container']}>
       <h1>Song List</h1>
       {songList.length === 0 ? <p>Loading...</p> :
-        songList.map(songItem => <SongListItem key={songItem.id} song={songItem} togglePlay={togglePlay}/>)}
+        songList.map(songItem =>
+          <SongListItem
+            key={songItem.id}
+            song={songItem}
+            togglePlay={togglePlay}
+            isPlaying={songItem.id === songPlaying}
+          />)}
     </div>
   );
 };

@@ -4,16 +4,20 @@ import SongList from './song list/song-list-index';
 import styles from './main.module.scss';
 
 const Main: React.FC = () => {
-  let [isPlaying, setIsPlaying] = useState<boolean>(false);
+  let [songPlaying, setSongPlaying] = useState<string>('');
 
-  function togglePlay () {
-    setIsPlaying(isPlaying => !isPlaying);
+  function togglePlay (songId: string) {
+    if (songId === songPlaying) {
+      setSongPlaying('');
+    } else {
+      setSongPlaying(songId);
+    }
   }
 
   return (
     <div className={styles['main-container']}>
-      <LogoHeader playing={isPlaying}/>
-      <SongList togglePlay={togglePlay}/>
+      <LogoHeader playing={songPlaying ? true : false}/>
+      <SongList togglePlay={togglePlay} songPlaying={songPlaying}/>
     </div>
   );
 };
