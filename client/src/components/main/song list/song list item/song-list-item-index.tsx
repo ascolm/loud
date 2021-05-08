@@ -18,7 +18,7 @@ const SongListItem: React.FC<Props> = ({ song }) => {
         <p className={styles['artist-name']}>{song.artist.name}</p>
       </div>
       <div className={styles['buttons']}>
-        <button onClick={() => setLiked(liked => !liked)} className={styles['like-button']}>
+        <button onClick={() => setLiked(liked => !liked)}>
           {liked ? <i className={'fas fa-lg fa-heart ' + styles['liked']}></i> : <i className='far fa-lg fa-heart'></i>}
         </button>
         <button onClick={() => setIsPlaying(playing => !playing)}>

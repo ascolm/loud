@@ -38,12 +38,6 @@
     margin: 0 0.2rem;
     cursor: pointer;
   }
-  .like-button{
-    &:hover{
-      animation-name: heartbeat;
-      animation-duration: 1s;
-    }
-  }
 }
 
 @keyframes heartbeat{
@@ -62,5 +56,7 @@
 }
 
 .liked{
+  animation-name: heartbeat;
+  animation-duration: 1s;
   color: #f57b90;
 }
