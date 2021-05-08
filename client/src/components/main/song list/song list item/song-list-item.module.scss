@@ -1,0 +1,40 @@
+.song-list-item-container{
+  border: 1px solid red;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  margin: 0.2rem 0.25rem;
+  padding: 0.25rem;
+  &:hover{
+    transform: scale(1.01)
+  }
+}
+
+.song-img{
+  height: 4rem;
+  width: 4rem;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.song-details{
+  margin-bottom: 0.5rem;
+  p{
+    margin: 0;
+  }
+  .song-name{
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+  }
+}
+
+
+
+.buttons{
+  display: flex;
+  margin-left: auto;
+  margin-right: 1rem;
+  button{
+    margin: 0 0.2rem;
+  }
+}
