@@ -5,7 +5,7 @@ import styles from './song-list.module.scss';
 import SongListItem from './song list item/song-list-item-index';
 
 export interface Props {
-  togglePlay: (songId: string) => void;
+  togglePlay: (songId: string, fileUrl: string) => void;
   songPlaying: string;
 }
 

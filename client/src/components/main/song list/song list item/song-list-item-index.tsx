@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 export interface Props {
   song: Song;
-  togglePlay: (songId: string) => void;
+  togglePlay: (songId: string, fileUrl: string) => void;
   isPlaying: boolean;
 }
 
@@ -22,7 +22,7 @@ const SongListItem: React.FC<Props> = ({ song, togglePlay, isPlaying }) => {
         <button onClick={() => setLiked(liked => !liked)}>
           {liked ? <i className={'fas fa-lg fa-heart ' + styles['liked']}></i> : <i className='far fa-lg fa-heart'></i>}
         </button>
-        <button onClick={() => togglePlay(song.id)}>
+        <button onClick={() => togglePlay(song.id, song.music_file_path)}>
           {isPlaying ? <i className="fas fa-lg fa-pause"></i> : <i className="fas   fa-lg fa-play"></i>}
         </button>
       </div>
