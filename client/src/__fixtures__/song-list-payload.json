@@ -1,0 +1,378 @@
+[
+    {
+        "id": "3f4cae49-71f0-11eb-8a0d-022ed69f96e6",
+        "name": "mix",
+        "name_seo": "mix",
+        "artist": {
+            "id": "15ba7568-6c67-11eb-8a0d-022ed69f96e6",
+            "name": "aarelxuxmn",
+            "artist_name": "aarelxuxmn",
+            "muted": false,
+            "place": null,
+            "country": null,
+            "followers": 0,
+            "follows": 0,
+            "liked": 0,
+            "releases": 4,
+            "favorites": 0,
+            "description": null,
+            "profile_image_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/profile_image/b15f841d-7065-11eb-8a0d-022ed69f96e6.jpeg?cb=20210216154603",
+            "cover_image_path": "https://api-stg.jam-community.com/img/user_bgr_default.png",
+            "favorite_genres": [],
+            "created": "2021-02-11T13:45:56+0100",
+            "location": null,
+            "social_accounts": [],
+            "video_shout_out_count": 0,
+            "external_songs_count": null,
+            "external_videos_count": 0,
+            "crews": []
+        },
+        "artist_name": "aarelxuxmn",
+        "duration": 33,
+        "bpm": 0,
+        "likes": 1,
+        "faves": 0,
+        "plays": 16,
+        "reposts": 0,
+        "comments": 0,
+        "description": null,
+        "tags": null,
+        "source_info": "ST_Electro_Lite ST_Rock_Lite",
+        "cover_image_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/3f41907e-71f0-11eb-8a0d-022ed69f96e6.jpeg?cb=20210218145023",
+        "cover_image_aspect_ratio": "700:700",
+        "music_file_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/3f28ee9e-71f0-11eb-8a0d-022ed69f96e6.m4a?cb=20210218145023",
+        "music_file_mimetype": "audio/mp4",
+        "song_genres": [
+            {
+                "id": 28,
+                "name": "Classic Rock"
+            }
+        ],
+        "song_release": "2021-02-18T14:50:23+0100",
+        "mix_packs": [],
+        "linked_crews": []
+    },
+    {
+        "id": "6b1cc53a-32e5-11ea-8f2a-022ed69f96e6",
+        "name": "scheduling still not working?!? oh noooo",
+        "name_seo": "scheduling-still-not-working-oh-noooo",
+        "artist": {
+            "id": "8d2861c7-eaa7-11e9-8f2a-022ed69f96e6",
+            "name": "musicmakerjamofficial",
+            "artist_name": "musicmakerjamofficial",
+            "muted": false,
+            "place": null,
+            "country": null,
+            "followers": 4,
+            "follows": 0,
+            "liked": 0,
+            "releases": 18,
+            "favorites": 0,
+            "description": null,
+            "profile_image_path": "https://api-stg.jam-community.com/img/user_logo_default.png",
+            "cover_image_path": "https://api-stg.jam-community.com/img/user_bgr_default.png",
+            "favorite_genres": [],
+            "created": "2019-10-09T17:14:55+0200",
+            "location": null,
+            "social_accounts": [],
+            "video_shout_out_count": 0,
+            "external_songs_count": null,
+            "external_videos_count": 0,
+            "crews": []
+        },
+        "artist_name": "musicmakerjamofficial",
+        "duration": 30,
+        "bpm": 0,
+        "likes": 1,
+        "faves": 0,
+        "plays": 16,
+        "reposts": 0,
+        "comments": 0,
+        "description": null,
+        "tags": null,
+        "source_info": null,
+        "cover_image_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/6ad16e24-32e5-11ea-8f2a-022ed69f96e6.jpeg?cb=20200109143911",
+        "cover_image_aspect_ratio": "1068:1068",
+        "music_file_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/6886be69-32e5-11ea-8f2a-022ed69f96e6.m4a?cb=20200109143911",
+        "music_file_mimetype": "audio/mp4",
+        "song_genres": [],
+        "song_release": "2021-01-09T14:38:15+0100",
+        "mix_packs": [
+            {
+                "id": "ST_Electro_Swing",
+                "loop_count": 229,
+                "shop": {
+                    "download_size": 32665948,
+                    "date": "2017-03-07T15:02:23+0100",
+                    "is_free": false
+                },
+                "colors": {
+                    "background_1": "#FF2F0000",
+                    "text_1": "#FFFFFFFF",
+                    "background_2": "#FFCBAC73",
+                    "text_2": "#FF000000"
+                },
+                "music": {
+                    "bpm": 110,
+                    "has_vocals": false
+                },
+                "product": {
+                    "id": "ST_Electro_Swing",
+                    "store": "virtual",
+                    "price": 330,
+                    "name": {
+                        "default_text": "Electro Swing"
+                    }
+                },
+                "genres": [
+                    {
+                        "id": 44,
+                        "name": "Electro"
+                    }
+                ],
+                "keywords": [
+                    {
+                        "id": 17,
+                        "name": "instrumental"
+                    },
+                    {
+                        "id": 39,
+                        "name": "old school"
+                    },
+                    {
+                        "id": 40,
+                        "name": "new"
+                    },
+                    {
+                        "id": 47,
+                        "name": "piano"
+                    },
+                    {
+                        "id": 59,
+                        "name": "drums"
+                    },
+                    {
+                        "id": 68,
+                        "name": "swing"
+                    },
+                    {
+                        "id": 69,
+                        "name": "electro"
+                    },
+                    {
+                        "id": 70,
+                        "name": "electronic"
+                    },
+                    {
+                        "id": 512,
+                        "name": "bass"
+                    },
+                    {
+                        "id": 514,
+                        "name": "trumpet"
+                    },
+                    {
+                        "id": 515,
+                        "name": "trombone"
+                    },
+                    {
+                        "id": 516,
+                        "name": "winds"
+                    },
+                    {
+                        "id": 517,
+                        "name": "horns"
+                    }
+                ],
+                "secondary_genres": [
+                    {
+                        "id": 10,
+                        "name": "Jazz/Blues"
+                    }
+                ],
+                "moods": [
+                    {
+                        "id": 4,
+                        "name": "Uplifting"
+                    }
+                ],
+                "secondary_moods": [
+                    {
+                        "id": 3,
+                        "name": "Happy"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Playful"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Groovy"
+                    }
+                ]
+            },
+            {
+                "id": "ST_Vintage_Rock",
+                "loop_count": 201,
+                "shop": {
+                    "download_size": 45346779,
+                    "date": "2017-03-07T15:02:23+0100",
+                    "is_free": false
+                },
+                "colors": {
+                    "background_1": "#FF332123",
+                    "text_1": "#FFFFFFFF",
+                    "background_2": "#FFE5E5E5",
+                    "text_2": "#FF000000"
+                },
+                "music": {
+                    "bpm": 90,
+                    "has_vocals": false
+                },
+                "product": {
+                    "id": "ST_Vintage_Rock",
+                    "store": "virtual",
+                    "price": 330,
+                    "name": {
+                        "default_text": "Vintage Rock"
+                    }
+                },
+                "genres": [
+                    {
+                        "id": 28,
+                        "name": "Classic Rock"
+                    }
+                ],
+                "keywords": [],
+                "secondary_genres": [],
+                "moods": [
+                    {
+                        "id": 1,
+                        "name": "Powerful"
+                    }
+                ],
+                "secondary_moods": [
+                    {
+                        "id": 12,
+                        "name": "Serious"
+                    },
+                    {
+                        "id": 15,
+                        "name": "Aggressive"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Tense"
+                    }
+                ]
+            }
+        ],
+        "linked_crews": []
+    },
+    {
+        "id": "ad47128d-50d4-11eb-9268-022ed69f96e6",
+        "name": "House Noir 1",
+        "name_seo": "house-noir-1-8",
+        "artist": {
+            "id": "59bc488f-50d4-11eb-9268-022ed69f96e6",
+            "name": "asmstaging",
+            "artist_name": "asmstaging",
+            "muted": false,
+            "place": null,
+            "country": null,
+            "followers": 0,
+            "follows": 0,
+            "liked": 0,
+            "releases": 2,
+            "favorites": 0,
+            "description": null,
+            "profile_image_path": "https://api-stg.jam-community.com/img/user_logo_default.png",
+            "cover_image_path": "https://api-stg.jam-community.com/img/user_bgr_default.png",
+            "favorite_genres": [],
+            "created": "2021-01-07T11:37:33+0100",
+            "location": null,
+            "social_accounts": [],
+            "video_shout_out_count": 0,
+            "external_songs_count": null,
+            "external_videos_count": 0,
+            "crews": []
+        },
+        "artist_name": "asmstaging",
+        "duration": 43,
+        "bpm": 125,
+        "likes": 1,
+        "faves": 0,
+        "plays": 8,
+        "reposts": 0,
+        "comments": 1,
+        "description": null,
+        "tags": null,
+        "source_info": "ST_House_Lite",
+        "cover_image_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/ad3e2556-50d4-11eb-9268-022ed69f96e6.jpeg?cb=20210107113953",
+        "cover_image_aspect_ratio": "700:700",
+        "music_file_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/ab131091-50d4-11eb-9268-022ed69f96e6.m4a?cb=20210107113949",
+        "music_file_mimetype": "audio/mp4",
+        "song_genres": [
+            {
+                "id": 2,
+                "name": "House"
+            }
+        ],
+        "song_release": "2021-01-07T11:39:53+0100",
+        "mix_packs": [],
+        "linked_crews": []
+    },
+    {
+        "id": "815c795a-50d4-11eb-9268-022ed69f96e6",
+        "name": "House Noir 1",
+        "name_seo": "house-noir-1",
+        "artist": {
+            "id": "59bc488f-50d4-11eb-9268-022ed69f96e6",
+            "name": "asmstaging",
+            "artist_name": "asmstaging",
+            "muted": false,
+            "place": null,
+            "country": null,
+            "followers": 0,
+            "follows": 0,
+            "liked": 0,
+            "releases": 2,
+            "favorites": 0,
+            "description": null,
+            "profile_image_path": "https://api-stg.jam-community.com/img/user_logo_default.png",
+            "cover_image_path": "https://api-stg.jam-community.com/img/user_bgr_default.png",
+            "favorite_genres": [],
+            "created": "2021-01-07T11:37:33+0100",
+            "location": null,
+            "social_accounts": [],
+            "video_shout_out_count": 0,
+            "external_songs_count": null,
+            "external_videos_count": 0,
+            "crews": []
+        },
+        "artist_name": "asmstaging",
+        "duration": 43,
+        "bpm": 125,
+        "likes": 1,
+        "faves": 0,
+        "plays": 3,
+        "reposts": 0,
+        "comments": 0,
+        "description": null,
+        "tags": null,
+        "source_info": "ST_House_Lite",
+        "cover_image_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/81506faf-50d4-11eb-9268-022ed69f96e6.jpeg?cb=20210107113839",
+        "cover_image_aspect_ratio": "700:700",
+        "music_file_path": "https://dz2l6nhikl0ua.cloudfront.net/assets/music_file/7f1fd865-50d4-11eb-9268-022ed69f96e6.m4a?cb=20210107113836",
+        "music_file_mimetype": "audio/mp4",
+        "song_genres": [
+            {
+                "id": 2,
+                "name": "House"
+            }
+        ],
+        "song_release": "2021-01-07T11:38:39+0100",
+        "mix_packs": [],
+        "linked_crews": []
+    }
+]
