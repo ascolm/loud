@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot: Renders song list correctly 1`] = `
+<div
+  className="song-list-container"
+>
+  <h1>
+    Song List
+  </h1>
+  <div
+    className="song-list-item-container"
+  >
+    <img
+      alt="mix song cover"
+      className="song-img"
+      src="https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/3f41907e-71f0-11eb-8a0d-022ed69f96e6.jpeg?cb=20210218145023"
+    />
+    <div
+      className="song-details"
+    >
+      <p
+        className="song-name"
+      >
+        mix
+      </p>
+      <p
+        className="artist-name"
+      >
+        aarelxuxmn
+      </p>
+    </div>
+    <div
+      className="buttons"
+    >
+      <button
+        aria-label="like"
+        onClick={[Function]}
+      >
+        <i
+          className="far fa-lg fa-heart"
+        />
+      </button>
+      <button
+        aria-label="play-pause"
+        onClick={[Function]}
+      >
+        <i
+          className="fas   fa-lg fa-play"
+        />
+      </button>
+    </div>
+    <div
+      className="half-border"
+    />
+  </div>
+  <div
+    className="song-list-item-container"
+  >
+    <img
+      alt="scheduling still not working?!? oh noooo song cover"
+      className="song-img"
+      src="https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/6ad16e24-32e5-11ea-8f2a-022ed69f96e6.jpeg?cb=20200109143911"
+    />
+    <div
+      className="song-details"
+    >
+      <p
+        className="song-name"
+      >
+        scheduling still not working?!? oh noooo
+      </p>
+      <p
+        className="artist-name"
+      >
+        musicmakerjamofficial
+      </p>
+    </div>
+    <div
+      className="buttons"
+    >
+      <button
+        aria-label="like"
+        onClick={[Function]}
+      >
+        <i
+          className="far fa-lg fa-heart"
+        />
+      </button>
+      <button
+        aria-label="play-pause"
+        onClick={[Function]}
+      >
+        <i
+          className="fas   fa-lg fa-play"
+        />
+      </button>
+    </div>
+    <div
+      className="half-border"
+    />
+  </div>
+  <div
+    className="song-list-item-container"
+  >
+    <img
+      alt="House Noir 1 song cover"
+      className="song-img"
+      src="https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/ad3e2556-50d4-11eb-9268-022ed69f96e6.jpeg?cb=20210107113953"
+    />
+    <div
+      className="song-details"
+    >
+      <p
+        className="song-name"
+      >
+        House Noir 1
+      </p>
+      <p
+        className="artist-name"
+      >
+        asmstaging
+      </p>
+    </div>
+    <div
+      className="buttons"
+    >
+      <button
+        aria-label="like"
+        onClick={[Function]}
+      >
+        <i
+          className="far fa-lg fa-heart"
+        />
+      </button>
+      <button
+        aria-label="play-pause"
+        onClick={[Function]}
+      >
+        <i
+          className="fas   fa-lg fa-play"
+        />
+      </button>
+    </div>
+    <div
+      className="half-border"
+    />
+  </div>
+  <div
+    className="song-list-item-container"
+  >
+    <img
+      alt="House Noir 1 song cover"
+      className="song-img"
+      src="https://dz2l6nhikl0ua.cloudfront.net/assets/cover_image/81506faf-50d4-11eb-9268-022ed69f96e6.jpeg?cb=20210107113839"
+    />
+    <div
+      className="song-details"
+    >
+      <p
+        className="song-name"
+      >
+        House Noir 1
+      </p>
+      <p
+        className="artist-name"
+      >
+        asmstaging
+      </p>
+    </div>
+    <div
+      className="buttons"
+    >
+      <button
+        aria-label="like"
+        onClick={[Function]}
+      >
+        <i
+          className="far fa-lg fa-heart"
+        />
+      </button>
+      <button
+        aria-label="play-pause"
+        onClick={[Function]}
+      >
+        <i
+          className="fas   fa-lg fa-play"
+        />
+      </button>
+    </div>
+    <div
+      className="half-border"
+    />
+  </div>
+</div>
+`;
