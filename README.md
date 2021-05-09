@@ -2,6 +2,8 @@
 
 You can see a live version of this project here: https://ascolm.github.io/loud/.
 
+![LoudPlayer](https://user-images.githubusercontent.com/65975591/117575123-20daa280-b0e9-11eb-9ede-e27d2f156b46.png)
+
 Setup instructions:
 
 1. Clone the repo
